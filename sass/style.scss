@@ -1,0 +1,563 @@
+$goldcolor: #E3B873;
+$blackcolor: #131313;
+$graydark: #363636;
+%navbars{
+    margin: 32px;
+    font-size: 14px;
+    line-height: 16px;
+    font-family: FuturaDemiC;
+}
+%price{
+         position: absolute;
+         top: 97%;
+         background-color: $goldcolor;
+         padding: 0 30px; 
+         color: white;
+         font-family: Yeseva One;
+         font-style: normal;
+         font-weight: normal;
+         font-size: 15px;
+         line-height: 25px;
+         text-transform: uppercase;
+  h4{
+      color: $graydark;
+      font-weight: bold;
+  }
+}
+body{
+    width: 1440px;
+    margin:0;
+}
+.container{
+    display: inline-flex;
+    width: 100%;
+    background-color: #131313;
+    h5{
+        color: $goldcolor;
+
+    }
+    ul{
+        display: inline-flex;
+        list-style-type:none;
+    }
+    li{
+         margin: 15px;
+         font-family: FuturaBookC;
+         font-size: 14px;
+         line-height: 16px;
+         a{
+            color: white;
+            text-decoration: none;
+            &:active { 
+                color: $goldcolor;          
+                }
+        }
+    }
+   
+    .logo{
+       @extend %navbars;
+       margin-left: 82px;
+        a{
+            color: $goldcolor;
+            text-decoration: none;
+
+        }
+    }
+    .contactnumber{
+        @extend %navbars;
+        a{
+            color: $goldcolor;
+        }
+    }
+    .requestcall{
+        padding: 10px 25px;
+        background-color: $goldcolor;
+        a{
+            color: white;
+            text-decoration: none;
+
+        }
+    }
+}
+.firstpage{
+    display: inline-flex;
+}
+.instagram{
+    width: 82px;
+    height: 709px;
+    background-color: $blackcolor;
+    color: $goldcolor;
+    h4{
+        position: absolute;
+        width: 20px;
+        height: 174px;
+        left: -45px;
+        top: 284px;
+        transform: rotate(90deg);
+        font-family: FuturaBookC;
+        font-size: 14px;
+        line-height: 16px;
+    }
+    img{
+        position: absolute;
+        left: 27px;
+        top: 470px;
+        transform: rotate(90deg);
+        font-family: FuturaBookC;
+        font-size: 14px;
+        line-height: 16px;
+    }
+     
+}
+.main{
+    width: 1358px;
+    height: 709px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/image/mainpage.png') no-repeat center center fixed; 
+    background-size: cover;
+    .rostov{
+        position: absolute;
+        left: 10%;
+        top: 25%;
+        color: white;
+    }
+    h1{
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 53px;
+    }
+    h5{
+        font-family: FuturaBookC;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 30px;
+     }
+    .spangold{
+        color: $goldcolor;
+        text-transform: uppercase;
+    }
+    .twobuttons{
+        display: inline-flex;
+    }
+    .button1{
+        padding: 20px;
+        background-color: $goldcolor;
+        margin-right: 20px;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+    }
+    .button2{
+        padding: 20px;
+        font-size: 13px;
+        line-height: 15px;
+        text-align: center;
+        border: white solid 1px;
+    }
+}
+.scroll{
+    display: block;
+    position: absolute;
+    width: 247px;
+    height: 97px;
+    margin-top: -55px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    background: $blackcolor;
+    h3{
+        margin-top: 37px;
+        margin-right: 15px;
+        font-size: 17px;
+        text-transform: uppercase;
+    }
+}
+.projects{
+     width: 1440px;
+     height: 1174px;
+     margin-top: -25px;
+    background: $blackcolor;
+}
+.completed{
+    
+    position: absolute;
+    top: 110%;
+    left: 7%;
+    width: 442px;
+    height: 390px;
+  
+      
+    
+      
+      /* ------------------------------ PAGINTION BEGIN ------------------------------ */
+      .pager {
+        margin: 0 0 3.75rem;
+        font-size: 0;
+        text-align: center;
+      }
+      .pager__item {
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1.125rem;
+        font-weight: bold;
+        margin: 0 2px;
+      }
+      .pager__item.active .pager__link {
+        background-color: #ffb74d;
+        border-color: #ffb74d;
+        color: #fff;
+        text-decoration: none;
+      }
+      .pager__item--prev svg, .pager__item--next svg {
+        width: 8px;
+        height: 12px;
+      }
+      .pager__item--next .pager__link svg {
+        -webkit-transform: rotate(180deg);
+                transform: rotate(180deg);
+        -webkit-transform-origin: center center;
+                transform-origin: center center;
+      }
+      .pager__link {
+        position: relative;
+        border-radius: 4px;
+        display: block;
+        text-align: center;
+        width: 2.625rem;
+        height: 2.625rem;
+        line-height: 2.625rem;
+        margin-left: -1px;
+        color: #2f3640;
+        text-decoration: none;
+        transition: 0.3s;
+      }
+      .pager__link:hover, .pager__link:focus, .pager__link:active {
+        background-color: #ffb74d;
+        border-color: #ffb74d;
+        color: #fff;
+        text-decoration: none;
+      }
+      .pager__link:hover svg path, .pager__link:focus svg path, .pager__link:active svg path {
+        fill: #fff;
+      }
+      .pager .pager__item.active + .pager__item .pager__link, .pager .pager__item:hover + .pager__item .pager__link {
+        border-left-color: #ffb74d;
+      }
+      
+    
+       .bulletpoint{
+           width: 10px;
+           height: 10px;
+        background: #FFFFFF;
+        border-radius: 30px;
+       }
+    h3{
+        color: $goldcolor;
+        font-family: Yeseva One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 27px;
+        line-height: 37px;
+        letter-spacing: -0.07em;
+        text-transform: uppercase;
+    }
+    h6{
+        font-family: FuturaBookC;
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 300;
+        color: white;
+    }
+    h4{
+        color: $goldcolor;
+        text-transform: uppercase;
+    }
+    .block{
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+    .grid-item{
+        font-family: FuturaBookC;
+        font-size: 15px;
+     }
+}
+.project{
+
+   position: absolute;
+   left: 42%;
+   top: 100%;
+.projectnavbar{
+    margin-top: 50px;
+}
+ul{
+    display: inline-flex;
+    padding-left: 0;
+    list-style-type:none;
+
+}
+li{
+    margin: 20px;
+    color: $goldcolor;
+    text-transform: uppercase;
+
+}
+.flex-container {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 50px;
+
+  img{
+    height: 482px;
+  margin-right: 12px;     
+ box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15);
+  }
+  .small-img{
+      margin-right: 0;
+  }
+}
+.flex-container::-webkit-scrollbar {    display: none;}
+ }
+ .online{
+     position: absolute;
+     top: 200%;
+     left: 44%;
+     font-size: 20px;
+     color: white;
+     line-height: 28px;
+     text-align: center;
+     text-transform: uppercase;
+
+     img{
+         
+         width: 32px;
+         height: 30px;
+         margin-left: 10px;
+         color: $goldcolor;
+     }
+     .videoimg{
+         position: absolute;
+         top: 130%;
+         left: -135%;
+         width: 817px;
+         height: 434px;
+         background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../assets/image/image\ 6.png');
+          .play{
+              width: 100px;
+              height: 100px;
+              margin-top: 180px;
+          }
+     }
+ }
+ .repair_part{
+     width: 1440px;
+     height: 2663px;
+     background-color: white;
+     text-align: center;
+
+     
+    
+     form{
+         margin-top: 100px;
+         .agree{
+             input{
+                position: absolute;
+                top: 100%;
+                left: 20%;
+                 
+             }
+         }
+          
+         .agreetext{
+             position: absolute;
+             top: 94%;
+             left: 27%;
+             font-size: 16px;
+            
+         }
+     }
+        .inputs{
+            float:left;
+            margin-right:30px;
+            
+        }
+     .repair_line{
+         position: absolute;
+         top: 280%;
+         left: 27%;
+         font-family: FuturaBookC;
+         font-size: 20px;
+         line-height: 34px;
+         text-align: center;
+         color: #363636;
+         
+         img{
+            width: 55px;
+         }
+          
+     }
+     .submit{
+         padding: 14px 50px;
+         background-color: $goldcolor;
+         color: white;
+         font-size: 18px;
+     } 
+     input, label {
+        margin-left: 20px;
+        display:block;
+        text-align: left;
+        font-size: 15px;
+        line-height: 20px;
+        color: rgba(54, 54, 54, 0.5);
+
+    }
+     input[type=text] {
+         width: 240px;
+        border: none;
+        border-bottom: 2px solid gray;
+      }
+      input[placeholder]{
+          color: $graydark;
+          font-size: 18px;
+          line-height: 24px;
+      }
+
+ }
+ .types{
+    position: absolute;
+    top: 350%;
+    left: 42%;
+    font-size: 20px;
+    color: #181818;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.design{
+    position: absolute;
+    top: 375%;
+    display: flex;
+    width: 1240px;
+    height: 608px;
+    margin-left: 110px;
+    .col-row-4{
+        width: 421px;
+        height: 100%;
+        margin: 10px;
+     }
+     .frst{
+        background:  url('../assets/image/image.png') no-repeat;
+     }
+     .second{
+        background:  url('../assets/image/Mask\ Group.png') no-repeat;
+
+     }
+     .third{
+        background:  url('../assets/image/Mask\ Group\ \(1\).png') no-repeat;
+     }
+     .price1{
+        @extend %price;
+         left: 3%;
+     }
+     
+     .price2{
+        @extend %price;
+         left: 36.5%;
+     }
+     .price3{
+        @extend %price;
+         left: 70%;
+     }
+    .designimage{
+        width: 100%;
+        height: 392px;
+     }
+    .designtext{
+        position: absolute;
+        top: 47.4%;
+        width: 27%;
+        margin-left: 31px;
+        height: 330px;
+        font-size: 15px;
+        line-height: 25px;   
+        color: #959595;        
+        background: #FFFFFF;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03);
+    }
+    .ml-25{
+        margin-left: 25px;
+    }
+}
+.email{
+    display: flex;
+    position: absolute;
+    top: 470%;
+    width: 1440px;
+    height: 600px;
+     .col-lg-8{
+       width: 800px;
+       height: 100%;
+       background: url('../assets/image/image\ 6.1.png') no-repeat center center ;
+    }
+    .col-lg-4{
+        position: absolute;
+        left: 60%;
+        width: 506px;
+        height: 100%;
+        background-color:$blackcolor;
+        .blackblank{
+
+            h3{
+                font-family: FuturaDemiC;
+                font-size: 18px;
+                line-height: 25px;
+                text-align: center;
+                letter-spacing: 2px;
+                color: #FFFFFF;
+            }
+            form{
+                 
+                .agree{
+                    input{
+                       position: absolute;
+                       top: 80%;
+                       left: 20%;
+                     }
+                }
+                 
+                .agreetext{
+                    position: absolute;
+                    top: 77%;
+                    left: 27%;
+                    font-size: 16px;
+                    color: white;
+                   
+                }
+            }
+               .inputs{
+                   color: rgba(255, 255, 255, 0.5);
+                   float:left;
+                   margin-right:30px;
+                   
+               }
+        }
+     }
+}
+ @media screen and (max-width: 576px) {
+    .pager__item {
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    .pager__item.active, .pager__item:first-of-type, .pager__item:last-of-type, .pager__item:nth-of-type(2), .pager__item:nth-last-of-type(2) {
+      position: initial;
+      top: initial;
+      left: initial;
+    }
+    .pager__item.active + li {
+      position: initial;
+      top: initial;
+      left: initial;
+    }
+  }

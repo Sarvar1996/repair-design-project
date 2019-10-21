@@ -1,0 +1,435 @@
+.container .logo, .container .contactnumber {
+  margin: 32px;
+  font-size: 14px;
+  line-height: 16px;
+  font-family: FuturaDemiC; }
+
+.design .price1, .design .price2, .design .price3 {
+  position: absolute;
+  top: 97%;
+  background-color: #E3B873;
+  padding: 0 30px;
+  color: white;
+  font-family: Yeseva One;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 25px;
+  text-transform: uppercase; }
+  .design .price1 h4, .design .price2 h4, .design .price3 h4 {
+    color: #363636;
+    font-weight: bold; }
+
+body {
+  width: 1440px;
+  margin: 0; }
+
+.container {
+  display: inline-flex;
+  width: 100%;
+  background-color: #131313; }
+  .container h5 {
+    color: #E3B873; }
+  .container ul {
+    display: inline-flex;
+    list-style-type: none; }
+  .container li {
+    margin: 15px;
+    font-family: FuturaBookC;
+    font-size: 14px;
+    line-height: 16px; }
+    .container li a {
+      color: white;
+      text-decoration: none; }
+      .container li a:active {
+        color: #E3B873; }
+  .container .logo {
+    margin-left: 82px; }
+    .container .logo a {
+      color: #E3B873;
+      text-decoration: none; }
+  .container .contactnumber a {
+    color: #E3B873; }
+  .container .requestcall {
+    padding: 10px 25px;
+    background-color: #E3B873; }
+    .container .requestcall a {
+      color: white;
+      text-decoration: none; }
+
+.firstpage {
+  display: inline-flex; }
+
+.instagram {
+  width: 82px;
+  height: 709px;
+  background-color: #131313;
+  color: #E3B873; }
+  .instagram h4 {
+    position: absolute;
+    width: 20px;
+    height: 174px;
+    left: -45px;
+    top: 284px;
+    transform: rotate(90deg);
+    font-family: FuturaBookC;
+    font-size: 14px;
+    line-height: 16px; }
+  .instagram img {
+    position: absolute;
+    left: 27px;
+    top: 470px;
+    transform: rotate(90deg);
+    font-family: FuturaBookC;
+    font-size: 14px;
+    line-height: 16px; }
+
+.main {
+  width: 1358px;
+  height: 709px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../assets/image/mainpage-8b579d1bd71edfe8c5699c8c9a80b677.png) no-repeat center center fixed;
+  background-size: cover; }
+  .main .rostov {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    color: white; }
+  .main h1 {
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 53px; }
+  .main h5 {
+    font-family: FuturaBookC;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px; }
+  .main .spangold {
+    color: #E3B873;
+    text-transform: uppercase; }
+  .main .twobuttons {
+    display: inline-flex; }
+  .main .button1 {
+    padding: 20px;
+    background-color: #E3B873;
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center; }
+  .main .button2 {
+    padding: 20px;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    border: white solid 1px; }
+
+.scroll {
+  display: block;
+  position: absolute;
+  width: 247px;
+  height: 97px;
+  margin-top: -55px;
+  text-align: center;
+  justify-content: center;
+  color: white;
+  background: #131313; }
+  .scroll h3 {
+    margin-top: 37px;
+    margin-right: 15px;
+    font-size: 17px;
+    text-transform: uppercase; }
+
+.projects {
+  width: 1440px;
+  height: 1174px;
+  margin-top: -25px;
+  background: #131313; }
+
+.completed {
+  position: absolute;
+  top: 110%;
+  left: 7%;
+  width: 442px;
+  height: 390px;
+  /* ------------------------------ PAGINTION BEGIN ------------------------------ */ }
+  .completed .pager {
+    margin: 0 0 3.75rem;
+    font-size: 0;
+    text-align: center; }
+  .completed .pager__item {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.125rem;
+    font-weight: bold;
+    margin: 0 2px; }
+  .completed .pager__item.active .pager__link {
+    background-color: #ffb74d;
+    border-color: #ffb74d;
+    color: #fff;
+    text-decoration: none; }
+  .completed .pager__item--prev svg, .completed .pager__item--next svg {
+    width: 8px;
+    height: 12px; }
+  .completed .pager__item--next .pager__link svg {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center; }
+  .completed .pager__link {
+    position: relative;
+    border-radius: 4px;
+    display: block;
+    text-align: center;
+    width: 2.625rem;
+    height: 2.625rem;
+    line-height: 2.625rem;
+    margin-left: -1px;
+    color: #2f3640;
+    text-decoration: none;
+    transition: 0.3s; }
+  .completed .pager__link:hover, .completed .pager__link:focus, .completed .pager__link:active {
+    background-color: #ffb74d;
+    border-color: #ffb74d;
+    color: #fff;
+    text-decoration: none; }
+  .completed .pager__link:hover svg path, .completed .pager__link:focus svg path, .completed .pager__link:active svg path {
+    fill: #fff; }
+  .completed .pager .pager__item.active + .pager__item .pager__link, .completed .pager .pager__item:hover + .pager__item .pager__link {
+    border-left-color: #ffb74d; }
+  .completed .bulletpoint {
+    width: 10px;
+    height: 10px;
+    background: #FFFFFF;
+    border-radius: 30px; }
+  .completed h3 {
+    color: #E3B873;
+    font-family: Yeseva One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase; }
+  .completed h6 {
+    font-family: FuturaBookC;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 300;
+    color: white; }
+  .completed h4 {
+    color: #E3B873;
+    text-transform: uppercase; }
+  .completed .block {
+    display: grid;
+    grid-template-columns: auto auto; }
+  .completed .grid-item {
+    font-family: FuturaBookC;
+    font-size: 15px; }
+
+.project {
+  position: absolute;
+  left: 42%;
+  top: 100%; }
+  .project .projectnavbar {
+    margin-top: 50px; }
+  .project ul {
+    display: inline-flex;
+    padding-left: 0;
+    list-style-type: none; }
+  .project li {
+    margin: 20px;
+    color: #E3B873;
+    text-transform: uppercase; }
+  .project .flex-container {
+    display: flex;
+    overflow-x: auto;
+    margin-top: 50px; }
+    .project .flex-container img {
+      height: 482px;
+      margin-right: 12px;
+      box-shadow: 0px 50px 30px rgba(0, 0, 0, 0.15); }
+    .project .flex-container .small-img {
+      margin-right: 0; }
+  .project .flex-container::-webkit-scrollbar {
+    display: none; }
+
+.online {
+  position: absolute;
+  top: 200%;
+  left: 44%;
+  font-size: 20px;
+  color: white;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase; }
+  .online img {
+    width: 32px;
+    height: 30px;
+    margin-left: 10px;
+    color: #E3B873; }
+  .online .videoimg {
+    position: absolute;
+    top: 130%;
+    left: -135%;
+    width: 817px;
+    height: 434px;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../assets/image/image 6-8be14243bd0fb5348386b1779f0c79e6.png"); }
+    .online .videoimg .play {
+      width: 100px;
+      height: 100px;
+      margin-top: 180px; }
+
+.repair_part {
+  width: 1440px;
+  height: 2663px;
+  background-color: white;
+  text-align: center; }
+  .repair_part form {
+    margin-top: 100px; }
+    .repair_part form .agree input {
+      position: absolute;
+      top: 100%;
+      left: 20%; }
+    .repair_part form .agreetext {
+      position: absolute;
+      top: 94%;
+      left: 27%;
+      font-size: 16px; }
+  .repair_part .inputs {
+    float: left;
+    margin-right: 30px; }
+  .repair_part .repair_line {
+    position: absolute;
+    top: 280%;
+    left: 27%;
+    font-family: FuturaBookC;
+    font-size: 20px;
+    line-height: 34px;
+    text-align: center;
+    color: #363636; }
+    .repair_part .repair_line img {
+      width: 55px; }
+  .repair_part .submit {
+    padding: 14px 50px;
+    background-color: #E3B873;
+    color: white;
+    font-size: 18px; }
+  .repair_part input, .repair_part label {
+    margin-left: 20px;
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(54, 54, 54, 0.5); }
+  .repair_part input[type=text] {
+    width: 240px;
+    border: none;
+    border-bottom: 2px solid gray; }
+  .repair_part input[placeholder] {
+    color: #363636;
+    font-size: 18px;
+    line-height: 24px; }
+
+.types {
+  position: absolute;
+  top: 350%;
+  left: 42%;
+  font-size: 20px;
+  color: #181818;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase; }
+
+.design {
+  position: absolute;
+  top: 375%;
+  display: flex;
+  width: 1240px;
+  height: 608px;
+  margin-left: 110px; }
+  .design .col-row-4 {
+    width: 421px;
+    height: 100%;
+    margin: 10px; }
+  .design .frst {
+    background: url(../assets/image/image-feb76312700697ceac174d6c558efd1a.png) no-repeat; }
+  .design .second {
+    background: url("../assets/image/Mask Group-b783fbc33ff6dd4a79b4137048bdad79.png") no-repeat; }
+  .design .third {
+    background: url("../assets/image/Mask Group (1)-2351717ebbf7478fad9626813530e147.png") no-repeat; }
+  .design .price1 {
+    left: 3%; }
+  .design .price2 {
+    left: 36.5%; }
+  .design .price3 {
+    left: 70%; }
+  .design .designimage {
+    width: 100%;
+    height: 392px; }
+  .design .designtext {
+    position: absolute;
+    top: 47.4%;
+    width: 27%;
+    margin-left: 31px;
+    height: 330px;
+    font-size: 15px;
+    line-height: 25px;
+    color: #959595;
+    background: #FFFFFF;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.03); }
+  .design .ml-25 {
+    margin-left: 25px; }
+
+.email {
+  display: flex;
+  position: absolute;
+  top: 470%;
+  width: 1440px;
+  height: 600px; }
+  .email .col-lg-8 {
+    width: 800px;
+    height: 100%;
+    background: url("../assets/image/image 6.1-ca4b69b07011eec2255bb4f34c33f4a1.png") no-repeat center center; }
+  .email .col-lg-4 {
+    position: absolute;
+    left: 60%;
+    width: 506px;
+    height: 100%;
+    background-color: #131313; }
+    .email .col-lg-4 .blackblank h3 {
+      font-family: FuturaDemiC;
+      font-size: 18px;
+      line-height: 25px;
+      text-align: center;
+      letter-spacing: 2px;
+      color: #FFFFFF; }
+    .email .col-lg-4 .blackblank form .agree input {
+      position: absolute;
+      top: 80%;
+      left: 20%; }
+    .email .col-lg-4 .blackblank form .agreetext {
+      position: absolute;
+      top: 77%;
+      left: 27%;
+      font-size: 16px;
+      color: white; }
+    .email .col-lg-4 .blackblank .inputs {
+      color: rgba(255, 255, 255, 0.5);
+      float: left;
+      margin-right: 30px; }
+
+@media screen and (max-width: 576px) {
+  .pager__item {
+    position: absolute;
+    top: -9999px;
+    left: -9999px; }
+  .pager__item.active, .pager__item:first-of-type, .pager__item:last-of-type, .pager__item:nth-of-type(2), .pager__item:nth-last-of-type(2) {
+    position: initial;
+    top: initial;
+    left: initial; }
+  .pager__item.active + li {
+    position: initial;
+    top: initial;
+    left: initial; } }
+
